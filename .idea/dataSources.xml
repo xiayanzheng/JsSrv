@@ -20,5 +20,14 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="AGDC@GSDU" uuid="83e79b5d-538a-46fd-8a1e-cbbe373f63f4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../Sandbox/GSDU/AGDC.db</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>
